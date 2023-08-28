@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(255, 138, 34);
+    color: rgb(50, 71, 152);
+    font-weight: bolder;
+    font-family:fantasy;
+    text-align: center;
+}
+h2 {
+    color: rgb(4, 112, 22);
+}
