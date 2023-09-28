@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<body>
+
+<h2>Tabela Simples</h2> 
+
+<table width="100%" border="1"> <!-- Container principal da tabela-->
+    <tr> <!--Representa as linhas, sendo composta pelas tags relacionadas às colunas. -->
+        <td> Abimael</td> <!-- 	Representa as colunas e precisa ser inserida dentro da tag de linha.-->
+        <td>HTML</td> 
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Izabel</td>
+        <td>HTML</td>
+        <td>10</td>
+    </tr>
+</table>
+
+<h2>Tabela Com Título</h2>  
+
+<table  width="100%" border="1">
+    <tr>
+        <th>Aluno</th> <!--Também representa colunas e é usada para exibir o título de uma coluna, possuindo, neste sentido, função semântica. Assim como a tag <td>, deve estar contida em uma tag de linha. Este elemento apresenta estilos próprios, sendo renderizado de forma diferente das colunas comuns. -->
+        <th>Disciplina</th>
+        <th>Nota</th>
+    </tr>
+    <tr>
+        <td>Abimael</td>
+        <td>html-css</td>
+        <td>9.8</td>
+    </tr>
+    <tr>
+        <td>Izabel</td>
+        <td>hitória</td>
+        <td>10</td>
+    </tr>
+</table>
+
+<h2>Tabela com Cabeçalho e Rodapé</h2>
+<table width = "100%" border="1">
+    <thead> <!--Armazena o cabeçalho da tabela, sendo composto por linhas e colunas. Este elemento, a exemplo do que vimos anteriormente, tem função semântica em termos de estruturação de conteúdo. -->
+        <tr>
+            <th>Mês</th>
+            <th>Horas/Aula</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Junho</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Julho</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+    <tfoot> <!--Armazena o rodapé da tabela, tendo também função semântica em termos de estruturação.-->
+        <tr>
+            <th>Total</th>
+            <th>70</th>
+        </tr>
+    </tfoot>
+
+</table>
+
+<h2>Tabela com <!--Colspan--></h2>
+<h3>Tabela simples Col</h3>
+<table width="100%" border="1">
+    <tr>
+        <td>Aluno</td>
+        <td colspan="2">Disciplina</td>
+    </tr>
+    <tr>
+        <td>Abimael</td>
+        <td>HTML</td>
+        <td>Ambiente Web</td>
+    </tr>
+
+
+</table>
+
+   
+</body>
+</html>
